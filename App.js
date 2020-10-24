@@ -10,6 +10,7 @@ class App extends Component {
         {id: '2', nome: 'Pablo', idade: 24, email: 'pablo@gmail.com'},
         {id: '3', nome: 'Fulano', idade: 39, email: 'fulano@gmail.com'},
         {id: '4', nome: 'Ciclano', idade: 18, email: 'ciclano@gmail.com'},
+        {id: '5', nome: 'José', idade: 18, email: 'jose@gmail.com'},
       ],
     };
   }
