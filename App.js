@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {View, Text, StyleSheet, FlatList} from 'react-native';
+import Pessoas from './src/Pessoas';
 
 class App extends Component {
   constructor(props) {
