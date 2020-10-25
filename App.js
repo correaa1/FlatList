@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import {View, Text, StyleSheet, FlatList} from 'react-native';
+import {View, Text, StyleS} from 'react-native';
+
 import Pessoas from './src/Pessoas';
 
 class App extends Component {
@@ -21,7 +22,7 @@ class App extends Component {
         <FlatList
           data={this.state.feed}
           keyExtractor={(item) => item.id}
-          renderItem={({item}) => <Pessoa data={item} />}
+          renderItem={({item}) => <Pessoas data={item} />}
         />
       </View>
     );
